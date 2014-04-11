@@ -1,0 +1,13 @@
+/phonebook/__init__.pyc
+/phonebook/__init__.py~
+/phonebook/dummy_database.pyc
+/phonebook/dummy_database.py~
+/phonebook/phonebook_layer.pyc
+/phonebook/phonebook_layer.py~
+/phonebook/phonebook_terminal.pyc
+/phonebook/phonebook_terminal.py~
+/phonebook/version.pyc
+/tests/test_phonebook_layer.pyc
+/tests/test_phonebook_layer.py~
+/tests/test_phonebook_terminal.pyc
+/tests/test_phonebook_terminal.py~
