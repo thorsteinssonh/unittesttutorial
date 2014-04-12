@@ -1,11 +1,9 @@
 
 from .dummy_database import DummyDataBase
+from .phonebook_layer_interface import PhoneBookLayerInterface
 
-class PhoneBookLayer(object):
+class PhoneBookLayer(PhoneBookLayerInterface):
     db = DummyDataBase()
-
-    def __init__(self):
-        pass
 
     def insert(self, record):
         """ 
