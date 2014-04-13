@@ -1,3 +1,7 @@
+/.coveragerc
+/phonebook/dummydb_phonebook_layer.pyc
+/phonebook/dummydb_phonebook_layer.py~
+/tests/test_dummydb_phonebook_layer.pyc
 /phonebook/phonebook_layer_interface.pyc
 /phonebook/phonebook_layer_interface.py~
 /phonebook/__init__.pyc

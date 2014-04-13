@@ -1,8 +1,18 @@
+"""
+Module implementing a PhoneBoookLayer
+interface for the Dummy Database.
+"""
 
 from .dummy_database import DummyDataBase
 from .phonebook_layer_interface import PhoneBookLayerInterface
 
-class PhoneBookLayer(PhoneBookLayerInterface):
+class DummydbPhoneBookLayer(object):
+    """
+    PhoneBookLayer connecting to the
+    Dummy Database class
+    """
+    __implements__ = (PhoneBookLayerInterface,)
+
     db = DummyDataBase()
 
     def insert(self, record):

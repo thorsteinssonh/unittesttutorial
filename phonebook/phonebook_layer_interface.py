@@ -1,10 +1,16 @@
+"""
+Module that defines an interface to
+a database for phone book entries.
+"""
+
 from abc import ABCMeta, abstractmethod
 
 class PhoneBookLayerInterface(object):
-    __metaclass__ = ABCMeta
+    """
+    Defining an interface for the phone book database layer
+    """
 
-    def __init__(self):
-        pass
+    __metaclass__ = ABCMeta
     
     @abstractmethod
     def insert(self, record):

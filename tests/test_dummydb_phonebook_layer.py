@@ -1,11 +1,11 @@
 import unittest
 from mock import Mock
 
-from phonebook import PhoneBookLayer
+from phonebook import DummydbPhoneBookLayer
 
 class TestPhoneBookLayer(unittest.TestCase):
     def setUp(self):
-        self.pbl = PhoneBookLayer()
+        self.pbl = DummydbPhoneBookLayer()
         self.pbl.db.add = Mock()
         
     def test_insert(self):

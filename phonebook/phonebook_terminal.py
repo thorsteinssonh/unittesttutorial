@@ -1,18 +1,30 @@
+"""
+This module impelements an interactive terminal
+for insert and lookup of phone book entries in
+a database.
+"""
 
-from .phonebook_layer import PhoneBookLayer
+from .dummydb_phonebook_layer import DummydbPhoneBookLayer
 from .version import __version__
 
 class PhoneBookTerminal(object):
+    """
+    An interactive terminal for insert and lookup of
+    phonebook entries in a database.
+    """
     def __init__(self):
-        self.pbl = PhoneBookLayer()
+        self.pbl = DummydbPhoneBookLayer()
 
     def start(self):
+        """
+        Starts the terminal session.
+        """
         self.output("")
         self.output("PHONE BOOK TERMINAL")
         self.output(__version__)
         while True:
             call = self.input("phonebook: ")
-            splt = call.split(" ",1)
+            splt = call.split(" ", 1)
             command = splt[0]
             if command == "":
                 continue
@@ -35,21 +47,34 @@ class PhoneBookTerminal(object):
                 self.print_unknown(command)
 
     # use a local handle for std input and output
-    # to facilitate easy mocking
+    # -- facilitates easy mocking
     input = raw_input
 
-    def output(self,s):
-        print s
+    def output(self, string):
+        """
+        Local std output handle.
+        Allows for easy mocking during unit testing.
+        """
+        print string
 
     def print_missing(self):
+        """
+        Report missing or incorrect input syntax.
+        """
         self.output(" Missing value or incorrect input syntax,")
         self.output(" type help for instructions")
 
-    def print_unknown(self,cmd=""):
+    def print_unknown(self, cmd=""):
+        """
+        Report an unknown command
+        """
         self.output(" Unknown command '%s',"%cmd)
         self.output(" type help for instructions")
 
     def print_help(self):
+        """
+        Print out documentation.
+        """
         self.output(" ---------------------------------------")
         self.output(" PHONE BOOK TERMINAL INSTRUCTIONS")
         self.output(" ---------------------------------------")
