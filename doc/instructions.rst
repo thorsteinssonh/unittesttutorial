@@ -61,6 +61,21 @@ the mock and nose package for python,
 	$ sudo apt-get install python-mock
 	$ sudo apt-get install python-nose
 
+For some distributions the mock package
+is too old, <8.0. Check your version using
+
+    >>> import mock
+    >>> mock.__version__
+
+If your version is older than 8.0, you may
+want to install the latest version using pip,
+
+.. code:: bash
+
+        $ sudo pip install -U mock
+	or
+	$ sudo easy_install -U mock
+
 Optionally, if you want to compile
 UML diagrams or documentation,
 
@@ -114,7 +129,8 @@ tests are 'covering' the code,
    TOTAL                                    98     44     16      7    55%
 
 The percentage coverage should improve somewhat after implementing the
-new tests.
+new tests.  Note that on some distributions the command line **coverage** tool is called
+**coverage2** or **python-coverage**.
 
 Create a git branch
 ==========================
