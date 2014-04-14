@@ -18,6 +18,7 @@ class PhoneBookLayerInterface(object):
         Insert a new phone book record,
         semicolon separated string:
         'name;address;phone_number'
+	Any leading or trailing spaces will be stipped.
         """
         pass
 
@@ -28,5 +29,6 @@ class PhoneBookLayerInterface(object):
         Returns semicolon separated string:
         'name;address;phone_number'
         If no entry, returns None
+	Any leading or trailing spaces will be stipped.
         """
         pass
