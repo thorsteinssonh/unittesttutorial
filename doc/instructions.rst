@@ -2,7 +2,7 @@
 Unittest tutorial 
 ==========================
 --------------------------------
-practical exercise
+practical exercise in Python
 --------------------------------
 
 :Date: 12-04-2014
@@ -31,7 +31,7 @@ If you are interested in what the software does,
 try running the **phonebookterminal.py**
 ( type help for instructions ),
 
-.. code::
+.. code:: bash
 
 	  $ ./phonebookterminal.py
 	  
@@ -115,6 +115,69 @@ tests are 'covering' the code,
 
 The percentage coverage should improve somewhat after implementing the
 new tests.
+
+Create a git branch
+==========================
+You may want to create a git branch for your implementation,
+
+.. code:: bash
+
+   $ git checkout -b <my_branch_name>
+
+Later on you may want to push your code back to google code where we
+can compare our solutions,
+
+.. code:: bash
+
+   $ git push origin <my_branch_name>
+
+Hróbjartur will supply a username and password.
+
+Handy assert statements and Mock
+===================================
+The test class provides some basic assert statements, e.g.,
+
+.. code:: python
+
+   def test_something(self):
+       self.do_something()
+       self.assertEqual(a,b)
+       ... or
+       self.assertItemsEqual( iterable_a, iterable_b )
+       ... or
+       self.assertTrue( some_bool )
+       ... or
+       self.assertRaises( SomeError, self.do_something() )
+
+**Mock** objects also provide some handy
+assert statements specific to the mock.  Here we use
+**Mock** as a listener, asserting the way it has been called,
+
+.. code:: python
+
+   def test_something(self):
+      self.myobj.foo = Mock()
+      self.myobj.do_something()
+      self.myobj.foo.assert_called_with(some, args)
+      ... or
+      self.myobj.foo.assert_called_once_with(some, args)
+      ... or
+      self.myobj.foo.assert_any_call(some, args)
+
+The **assert_any_call** checks if the mock has ever been called
+with, while the **assert_called_** check only the last known call
+to the mock. Import the **Mock** into a python shell
+to see what other options it provides.
+
+We can also make mock provide fake input to your code unit,
+
+.. code:: python
+
+    def test_something(self):
+        self.myobj.foo = Mock(return_value="any kind of data")
+        ... or if we need a series of calls and return values
+	self.myobj.foo = Mock(side_effect=[data1, data2, ...])
+
 
 Code structure
 ==========================
