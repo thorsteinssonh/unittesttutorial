@@ -15,23 +15,14 @@ Assignment
 Your assignment is to implement a missing
 unittest for the **phonebook** package.
 
-This tutorial also shows you how you can use some
-common python tools to help you evaluate
-and view python code projects.
+This exercise is also intented to
+demonstrate how you can use some
+common python tools to test and
+evaluate your python projects.
 
-phonebook structure
-++++++++++++++++++++++++++
-
-.. code:: bash
-
-	$ pyreverse -o png phonebook/*.py
-
-.. image:: class_diagram.png
-	:width: 500px 
-
-Install following software tools
+Install software tools
 ====================================
-The tools
+The essential tools are,
 
 .. code:: bash
 
@@ -51,15 +42,13 @@ UML diagrams or documentation,
 **rst2pdf** depends on docutils, which should therefore also be installed.
 With docutils you get more tools, such as **rst2html**.
 
+run the tests
+++++++++++++++++++++++++++
 
-Using nosetests and coverage
-====================================
-
-The **nose** package includes a commandline tool
-**nosetests**.  This is perhaps the most popular
-"testrunner" in python. This test runner automatically looks up
-classes that derive from unittest.TestCase, sets some
-environment conditions and executes the tests.
+The **nose** package includes a 'testrunner' called
+**nosetests**.  The testrunner automatically looks up
+classes that derive from unittest.TestCase
+executes the tests and reports a result.
 
 Run,
 
@@ -67,5 +56,24 @@ Run,
 
 	$ nosetests -v tests/
 
-to run the tests
+to execute all the tests found in the tests directory.
+The following two tests have been defined but not
+implemented,
+
+ERROR: test_lookup (test_dummydb_phonebook_layer.TestPhoneBookLayer)
+ERROR: test_terminal_unknown_command (test_phonebook_terminal.TestPhoneBookTerminal)
+	
+We are going to implement the **TestPhoneBookLayer.test_lookup** inside
+the file **tests/test_dummydb_phonebook_layer.py**
+
+phonebook structure
+++++++++++++++++++++++++++
+
+.. code:: bash
+
+	$ pyreverse -o png phonebook/*.py
+
+.. image:: class_diagram.png
+	:width: 700px 
+
 
