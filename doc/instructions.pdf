@@ -78,9 +78,9 @@ endobj
  0
  0 ]
  /Rect [ 285.2627
- 330.1736
+ 280.9736
  529.2527
- 342.1736 ]
+ 292.9736 ]
  /Subtype /Link
  /Type /Annot >>
 endobj
@@ -150,7 +150,7 @@ endobj
 % 'R12': class PDFInfo 
 12 0 obj
 << /Author (Hrobjartur Thorsteinsson; \(thorsteinssonh@gmail.com\))
- /CreationDate (D:20140414023733+00'00')
+ /CreationDate (D:20140414025752+00'00')
  /Creator (\(unspecified\))
  /Keywords ()
  /Producer (ReportLab PDF Library - www.reportlab.com)
@@ -180,7 +180,7 @@ endobj
 << /Dest [ 6 0 R
  /XYZ
  62.69291
- 281.8236
+ 234.6236
  0 ]
  /Next 16 0 R
  /Parent 13 0 R
@@ -192,7 +192,7 @@ endobj
 << /Dest [ 8 0 R
  /XYZ
  62.69291
- 765.0236
+ 715.8236
  0 ]
  /Next 17 0 R
  /Parent 13 0 R
@@ -205,7 +205,7 @@ endobj
  /Dest [ 8 0 R
  /XYZ
  62.69291
- 368.4236
+ 319.2236
  0 ]
  /First 18 0 R
  /Last 18 0 R
@@ -218,7 +218,7 @@ endobj
 << /Dest [ 8 0 R
  /XYZ
  62.69291
- 221.4236
+ 172.2236
  0 ]
  /Parent 17 0 R
  /Title (Class diagram) >>
@@ -235,7 +235,7 @@ endobj
 % 'R20': class PDFStream 
 20 0 obj
 % page stream
-<< /Length 4809 >>
+<< /Length 5048 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
@@ -328,25 +328,45 @@ BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Assignment) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 587.0236 cm
+1 0 0 1 62.69291 575.0236 cm
 q
-BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Your assignment is to implement a missing unittest for the ) Tj /F2 10 Tf (phonebook ) Tj /F1 10 Tf (package.) Tj T* ET
+BT 1 0 0 1 0 14 Tm .833318 Tw 12 TL /F1 10 Tf 0 0 0 rg (Your assignment is to implement a missing unittest for the ) Tj /F2 10 Tf (phonebook ) Tj /F1 10 Tf (package. Clone the project from) Tj T* 0 Tw (google code,) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 533.0236 cm
+1 0 0 1 62.69291 541.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 24 re B*
+Q
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg ($ ) Tj /F3 10 Tf (git clone http://code.google.com/p/unittesttutorial) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 485.8236 cm
 q
 BT 1 0 0 1 0 38 Tm 3.751976 Tw 12 TL /F1 10 Tf 0 0 0 rg (Implement the ) Tj /F2 10 Tf (test_lookup ) Tj /F1 10 Tf (unit test inside the file ) Tj /F2 10 Tf (tests / test_dummydb_phonebook_layer.py) Tj /F1 10 Tf (.) Tj T* 0 Tw .898863 Tw (Optionally implement the ) Tj /F2 10 Tf (test_unknown_command ) Tj /F1 10 Tf (inside the file ) Tj /F2 10 Tf (test / test_phonebook_terminal.py) Tj /F1 10 Tf (.) Tj T* 0 Tw .069461 Tw (Note that this second test requires a bit more code reading and applies a more advanced use of the ) Tj /F2 10 Tf (Mock) Tj T* 0 Tw /F1 10 Tf (class.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 503.0236 cm
+1 0 0 1 62.69291 455.8236 cm
 q
 BT 1 0 0 1 0 14 Tm 1.369985 Tw 12 TL /F1 10 Tf 0 0 0 rg (If you are interested in what the software does, try running the ) Tj /F2 10 Tf (phonebookterminal.py ) Tj /F1 10 Tf (\( type help for) Tj T* 0 Tw (instructions \),) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 313.8236 cm
+1 0 0 1 62.69291 266.6236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -367,26 +387,26 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 293.8236 cm
+1 0 0 1 62.69291 246.6236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (The ) Tj /F2 10 Tf (phonebookterminal ) Tj /F1 10 Tf (software allows users to insert or lookup phonebook entries in a database.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 260.8236 cm
+1 0 0 1 62.69291 213.6236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Install software tools) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 242.8236 cm
+1 0 0 1 62.69291 195.6236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (The essential testing tools are the mock and nose package for python,) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 197.6236 cm
+1 0 0 1 62.69291 150.4236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -406,14 +426,14 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 177.6236 cm
+1 0 0 1 62.69291 130.4236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Optionally, if you want to compile UML diagrams or documentation,) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 108.4236 cm
+1 0 0 1 62.69291 85.22362 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -423,10 +443,10 @@ q
 .662745 .662745 .662745 RG
 .5 w
 .960784 .960784 .862745 rg
-n -6 -6 468.6898 60 re B*
+n -6 -6 468.6898 36 re B*
 Q
 q
-BT 1 0 0 1 0 38 Tm 12 TL /F1 10 Tf 0 0 0 rg ($ ) Tj /F3 10 Tf (sudo apt-get install graphviz) Tj T* /F1 10 Tf ($ ) Tj /F3 10 Tf (sudo apt-get install pylint) Tj T* /F1 10 Tf ($ ) Tj /F3 10 Tf (sudo apt-get install python-coverage) Tj T* /F1 10 Tf ($ ) Tj /F3 10 Tf (sudo apt-get install rst2pdf) Tj T* ET
+BT 1 0 0 1 0 14 Tm 12 TL /F1 10 Tf 0 0 0 rg ($ ) Tj /F3 10 Tf (sudo apt-get install graphviz) Tj T* /F1 10 Tf ($ ) Tj /F3 10 Tf (sudo apt-get install pylint) Tj T* ET
 Q
 Q
 Q
@@ -438,30 +458,50 @@ endobj
 % 'R21': class PDFStream 
 21 0 obj
 % page stream
-<< /Length 5272 >>
+<< /Length 5639 >>
 stream
 1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
 q
-1 0 0 1 62.69291 744.0236 cm
+1 0 0 1 62.69291 727.8236 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.960784 .960784 .862745 rg
+n -6 -6 468.6898 36 re B*
+Q
+q
+BT 1 0 0 1 0 14 Tm 12 TL /F1 10 Tf 0 0 0 rg ($ ) Tj /F3 10 Tf (sudo apt-get install python-coverage) Tj T* /F1 10 Tf ($ ) Tj /F3 10 Tf (sudo apt-get install rst2pdf) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 62.69291 694.8236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Run the tests) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 714.0236 cm
+1 0 0 1 62.69291 664.8236 cm
 q
 BT 1 0 0 1 0 14 Tm .024597 Tw 12 TL /F1 10 Tf 0 0 0 rg (The ) Tj /F2 10 Tf (nose ) Tj /F1 10 Tf (package includes a 'testrunner' called ) Tj /F2 10 Tf (nosetests) Tj /F1 10 Tf (. The testrunner automatically looks up classes) Tj T* 0 Tw (that derive from unittest.TestCase, executes the tests and reports a result.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 696.0236 cm
+1 0 0 1 62.69291 646.8236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (Now execute all the tests found in the tests directory,) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 662.8236 cm
+1 0 0 1 62.69291 613.6236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -481,14 +521,14 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 642.8236 cm
+1 0 0 1 62.69291 593.6236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (All but two tests should pass. Two tests have been defined but not yet implemented,) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 597.6236 cm
+1 0 0 1 62.69291 548.4236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -508,13 +548,13 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 577.6236 cm
+1 0 0 1 62.69291 528.4236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (Optionally use ) Tj /F2 10 Tf (coverage ) Tj /F1 10 Tf (to evaluate how well the tests are 'covering' the code,) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 400.4236 cm
+1 0 0 1 62.69291 351.2236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -534,51 +574,51 @@ Q
 Q
 Q
 q
-1 0 0 1 62.69291 380.4236 cm
+1 0 0 1 62.69291 331.2236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (The percentage coverage should improve somewhat after implementing the new tests.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 347.4236 cm
+1 0 0 1 62.69291 298.2236 cm
 q
 BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf 0 0 0 rg (Code structure) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 317.4236 cm
+1 0 0 1 62.69291 268.2236 cm
 q
 BT 1 0 0 1 0 14 Tm .908538 Tw 12 TL /F1 10 Tf 0 0 0 rg (The software uses a database abstraction layer \() Tj 0 0 .501961 rg (http://en.wikipedia.org/wiki/Database_abstraction_layer) Tj 0 0 0 rg (\)) Tj T* 0 Tw (to hide the functionality of an actual database module.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 287.4236 cm
+1 0 0 1 62.69291 238.2236 cm
 q
 0 0 0 rg
 BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.059984 Tw (An abstraction layer is a 'programming pattern' that helps isolate your code from external libraries. This) Tj T* 0 Tw (technique makes your code less dependent on those libraries by calling an intermediary layer.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 233.4236 cm
+1 0 0 1 62.69291 184.2236 cm
 q
 BT 1 0 0 1 0 38 Tm 1.16784 Tw 12 TL /F1 10 Tf 0 0 0 rg (In our case the database module being used is a demonstration module called ) Tj /F2 10 Tf (DummyDataBase) Tj /F1 10 Tf (. Our) Tj T* 0 Tw 2.307976 Tw (abstraction from this database is called ) Tj /F2 10 Tf (DummydbPhoneBookLayer) Tj /F1 10 Tf (, which implements an interface) Tj T* 0 Tw 2.029966 Tw /F2 10 Tf (PhoneBookLayerInterface) Tj /F1 10 Tf (. The ) Tj /F2 10 Tf (PhoneBookTerminal ) Tj /F1 10 Tf (talks only to the ) Tj /F2 10 Tf (DummydbPhoneBookLayer) Tj /F1 10 Tf (,) Tj T* 0 Tw (which in turn talks to the ) Tj /F2 10 Tf (DummyDataBase) Tj /F1 10 Tf (.) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 203.4236 cm
+1 0 0 1 62.69291 154.2236 cm
 q
 BT 1 0 0 1 0 3 Tm 18 TL /F2 15 Tf 0 0 0 rg (Class diagram) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 185.4236 cm
+1 0 0 1 62.69291 136.2236 cm
 q
 BT 1 0 0 1 0 2 Tm 12 TL /F1 10 Tf 0 0 0 rg (You can generate a UML class diagram for the code using ) Tj /F2 10 Tf (pyreverse ) Tj /F1 10 Tf (\(shippes with pylint\),) Tj T* ET
 Q
 Q
 q
-1 0 0 1 62.69291 152.2236 cm
+1 0 0 1 62.69291 103.0236 cm
 q
 q
 1 0 0 1 0 0 cm
@@ -667,20 +707,20 @@ xref
 0000035498 00000 n
 0000035640 00000 n
 0000035764 00000 n
-0000040672 00000 n
-0000046043 00000 n
-0000046302 00000 n
-0000046421 00000 n
-0000046498 00000 n
-0000046575 00000 n
+0000040911 00000 n
+0000046649 00000 n
+0000046908 00000 n
+0000047027 00000 n
+0000047104 00000 n
+0000047181 00000 n
 trailer
 << /ID 
  % ReportLab generated PDF document -- digest (http://www.reportlab.com) 
- [(\\\201{\350\266z\357\023 ~08f|!\216) (\\\201{\350\266z\357\023 ~08f|!\216)] 
+ [(\271\250\335\001#7\261\246F\265\303\035N\260\271x) (\271\250\335\001#7\261\246F\265\303\035N\260\271x)] 
 
  /Info 12 0 R
  /Root 11 0 R
  /Size 27 >>
 startxref
-46622
+47228
 %%EOF

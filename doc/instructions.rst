@@ -14,6 +14,11 @@ Assignment
 ==========================
 Your assignment is to implement a missing
 unittest for the **phonebook** package.
+Clone the project from google code,
+
+.. code:: bash
+
+	$ git clone http://code.google.com/p/unittesttutorial
 
 Implement the **test_lookup** unit test inside
 the file **tests / test_dummydb_phonebook_layer.py**.
